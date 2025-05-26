@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Maquina";
+    src: url(JMH\ Typewriter.otf)format(opentype);
+}
+h1{
+    font-family: "Maquina";
+    font-weight: normal;
+    color: white;
+}
+html,body {
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0),white,red);
+    height: 100%;
+    margin: 5px;
+    background-attachment: fixed;
+}
+

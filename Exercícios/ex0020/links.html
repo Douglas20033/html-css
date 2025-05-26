@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: rgb(112, 14, 14);
+            text-decoration: none;
+        }
+        a:visited{
+            color: black;
+        }
+
+        a:hover{
+            color: blue;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: aqua;
+        }
+
+        .especial::before{
+            content: '→';
+            color: darkred;
+        }
+
+        .especial::after{
+            content: '←';
+            color: darkred;
+            text-decoration: none;
+            font-weight: normal;
+        }
+
+        .especial{
+            background-color: black;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li> <a href="https://github.com/Douglas20033?tab=repositories" target="_blank">Repositório GitHub</a></li>
+        <li class="especial"> <a href="https://www.youtube.com/@douglas7562" target="_blank">Canal do Youtube</a></li>
+        <li> <a href="https://www.cursoemvideo.com/minha-conta/" target="_blank">Site CursoemVideo</a></li>
+
+    </ul>
+    
+</body>
+</html>
