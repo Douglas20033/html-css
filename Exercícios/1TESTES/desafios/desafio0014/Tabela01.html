@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela de Notas</title>
+</head>
+<style>
+    table{
+        
+        font-family: 'Times New Roman', Times, serif;
+        border-collapse: collapse;
+        margin: auto;
+        width: 600px;
+        
+    }
+
+     th,td{
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+
+    thead th {
+        background-color: gray;
+        color: white;
+        font-weight: bold;
+    }
+
+    tbody td:nth-child(2){
+        text-align: center;
+        
+    }
+
+    tbody th {
+        vertical-align: middle;
+        font-weight: bold;
+       
+    }
+
+    tbody tr th{
+        text-align: left;
+        padding-left: 10px;
+        font-weight: bold;
+    }
+    tfoot tr th{
+        font-weight: bold;
+    }
+   
+
+</style>
+<body>
+
+<table>
+   <thead>
+        <tr>
+            <th rowspan="2">Área</th>
+            <th rowspan="2">Disciplinas</th>
+            <th colspan="2">Notas</th>
+            <th rowspan="2">Médias</th>
+        </tr>
+        <tr>
+            <th>Nota1</th>
+            <th>Nota2</th>
+        </tr>
+        
+   </thead>
+   
+   <tbody>
+    
+    <tr>
+        <th rowspan="4">Exatas</th>
+        <td>Matematica</td>
+        <td>00</td>
+        <td>00</td>
+        <td>00</td>
+    </tr>
+    <tr>
+        <td>Fisica</td>
+        <td>00</td>
+        <td>00</td>
+        <td>00</td>
+    </tr>
+    <tr>
+        <td>Quimica</td>
+        <td>00</td>
+        <td>00</td>
+        <td>00</td>
+    </tr>
+    <tr>
+        <td>Biologia</td>
+        <td>00</td>
+        <td>00</td>
+        <td>00</td>
+    </tr>
+
+    <tr>
+        <th colspan="4">Medias Exatas</th>
+        <td>00</td>
+    </tr>
+
+    <tr>
+        <th rowspan="2">Humanas</th>
+        <td>Historia</td>
+        <td>00</td>
+        <td>00</td>
+        <td>00</td>
+    </tr>
+    <tr>
+       <td>Geografia</td>
+        <td>00</td>
+        <td>00</td>
+        <td>00</td> 
+    </tr>
+   </tbody>
+   <tfoot>
+    <tr>
+        <th colspan="4">Médias De Humanas</th>
+        <td>00</td>
+    </tr>
+   </tfoot>
+</table>
+
+</body>
+</html>
