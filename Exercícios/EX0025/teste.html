@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino</title>
+</head>
+<body>
+    <h1>Treinando Formulário</h1>
+
+    <form action="javascript.js" method="get">
+
+    <p>
+        <label for="iuser"> Usuário:</label>
+        <input type="text" name="user" id="iuser" minlength="5" maxlength="15"
+        placeholder="Insira Usuário" autocomplete="on" requerid>
+    </p>
+
+    <p>
+        <label for="isenha">Senha:</label>
+        <input type="password" name="Senha" id="isenha" autocomplete="current-password" required placeholder="Digite a Senha" >
+    </p>
+
+    <p>
+        <label for="imedia">Média:</label>
+        <input type="number" name="media" id="imedia" step="0.1" placeholder="Digite a Média">
+    </p>
+
+    <p>
+        <label for="idata">Data:</label>
+        <input type="date" name="data" id="idata">
+
+    </p>
+
+    <p>
+        <label for="ihora">Hora:</label>
+        <input type="time" name="hora" id="ihora">
+    </p>
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar tudo">
+    </p>
+
+
+    </form>
+</body>
+</html>
