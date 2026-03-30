@@ -2,6 +2,7 @@
 
 header, header > nav{
     flex-flow: column nowrap;
+   
 }
 
 header > h1{
